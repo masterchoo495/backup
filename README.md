@@ -19,7 +19,7 @@
 
 ### Решение
 
-
+rsync -a --delete /home/ubuntu /tmp/backup
 
 ---
 
