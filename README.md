@@ -7,7 +7,11 @@
 - На проверку направить скриншот с командой и результатом ее выполнения
 
 ### Решение
+Получившаяся команда согласно условию задания  
+rsync -acv --progress --delete --exclude '.*' . /tmp/backup  
 
+Выполнение команды:  
+![alt text](https://github.com/masterchoo495/clst_blnc/blob/main/001-2.png)  
 
 
 ### Задание 2
@@ -18,7 +22,19 @@
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
 ### Решение
+Добавление скрипта в планировщик  
+![alt text](https://github.com/masterchoo495/clst_blnc/blob/main/002.png)  
 
+Проверка скрипта
+![alt text](https://github.com/masterchoo495/clst_blnc/blob/main/003.png)  
+
+Запись в системном логе (при успешном выполнении)
+![alt text](https://github.com/masterchoo495/clst_blnc/blob/main/004.png)  
+
+Запись в системном логе (когда не удалось выполнить)
+![alt text](https://github.com/masterchoo495/clst_blnc/blob/main/005.png)  
+
+[Файл скрипта backup.sh](https://github.com/masterchoo495/clst_blnc/blob/main/backup.sh)
 rsync -a --delete /home/ubuntu /tmp/backup
 
 ---
