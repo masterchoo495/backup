@@ -10,7 +10,7 @@
 Получившаяся команда согласно условию задания  
 *rsync -acv --progress --delete --exclude '.*' . /tmp/backup*  
 
-Выполнение команды:  
+Выполнение команды  
 ![alt text](https://github.com/masterchoo495/backup/blob/main/001-2.png)  
 
 
